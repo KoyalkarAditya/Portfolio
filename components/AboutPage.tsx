@@ -43,7 +43,7 @@ export function AboutPage() {
                   initial="initial"
                   whileInView="animate"
                 >
-                  I'm Koyalkar Aditya a Full Stack Developer from India.
+                  I&apos;m Koyalkar Aditya a Full Stack Developer from India.
                   Currently working with Technologies like MERN stack and
                   Next.js .
                   <br />
