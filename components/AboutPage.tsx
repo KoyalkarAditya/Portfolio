@@ -47,7 +47,7 @@ export function AboutPage() {
                   Currently working with Technologies like MERN stack and
                   Next.js .
                   <br />
-                  I'm currently an undergraduate,pursuing Computer Science
+                  I&apos;m currently an undergraduate,pursuing Computer Science
                   majors from AVN Institute of Engineering and Technology.
                   <br />
                 </motion.div>
