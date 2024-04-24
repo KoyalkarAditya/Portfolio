@@ -4,7 +4,7 @@ import Image from "next/image";
 import Profile from "../public/images/dp.png";
 export function HomePage() {
   return (
-    <div className="flex justify-center items-center mt-24">
+    <div className="flex justify-center items-center mt-24 dark:bg-dark">
       <Layout>
         <div className="flex flex-col items-center justify-center w-full">
           <div className=" flex  justify-center flex-col items-center">

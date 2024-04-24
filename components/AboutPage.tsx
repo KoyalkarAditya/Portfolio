@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Layout } from "./CustomLayout";
-import { animate, motion, useAnimate, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import { LinkArrow } from "./Icons";
 const quote = {
@@ -17,9 +17,9 @@ const quote = {
 };
 export function AboutPage() {
   return (
-    <div className=" px-72  py-28 flex flex-col justify-center">
+    <div className=" px-72  pt-28 flex flex-col justify-center">
       <div className=" font-bold text-3xl font-mono text-center">About Me</div>
-      <div className=" text-dark w-full min-h-screen">
+      <div className=" text-dark w-full">
         <Layout>
           <div className="flex items-center justify-between w-full">
             <div className="flex items-center w-full">
@@ -38,7 +38,7 @@ export function AboutPage() {
               </div>
               <div>
                 <motion.div
-                  className=" ml-10 font-mono text-lg font-semibold "
+                  className=" ml-10 font-mono text-lg font-semibold  dark:text-white"
                   variants={quote}
                   initial="initial"
                   whileInView="animate"
@@ -58,7 +58,7 @@ export function AboutPage() {
                   >
                     <span className="relative flex items-center justify-center px-4 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                       Available to Work
-                      <LinkArrow className="ml-2 w-5" />
+                      <LinkArrow className="ml-2 max-w-3 h-3" />
                     </span>
                   </Link>
                 </div>
