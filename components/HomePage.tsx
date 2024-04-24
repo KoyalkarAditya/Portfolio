@@ -17,7 +17,7 @@ export function HomePage() {
             </div>
             <div className=" text-left">
               <div className=" ml-10 mb-2 font-bold font-mono text-3xl ">
-                Hey, I'm Aditya! &#128075;
+                Hey, I&apos;m Aditya! &#128075;
               </div>
               <div className="ml-10 text-gray-500 font-bold font-mono text-2xl">
                 Software Engineer
