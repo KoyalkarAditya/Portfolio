@@ -1,3 +1,5 @@
+import { SkillsPage } from "@/components/SkillsPage";
+
 export default function () {
-  return <h1>Skills</h1>;
+  return <SkillsPage />;
 }
