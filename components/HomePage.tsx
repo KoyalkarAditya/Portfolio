@@ -26,7 +26,7 @@ export function HomePage() {
                 Full Stack Developer
               </div>
             </div>
-            <div className="mt-14 text-semibold font-mono text-lg font-semibold">
+            <div className="mt-14 text-semibold font-mono text-lg font-semibold xl:text-center">
               Welcome to my personal portfolio!
             </div>
           </div>

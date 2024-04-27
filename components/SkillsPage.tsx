@@ -25,9 +25,11 @@ export function SkillsPage() {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center px-72 py-28">
-      <div className="font-bold text-3xl font-mono text-center">Tech Stack</div>
-      <div className="mt-10 grid grid-cols-4 gap-x-10 gap-y-10">
+    <div className="flex flex-col justify-center items-center px-72 py-28 xl:px-0 xl:py-10">
+      <div className="font-bold text-3xl font-mono text-center xl:text-2xl">
+        Tech Stack
+      </div>
+      <div className="mt-10 grid grid-cols-4 gap-x-10 gap-y-10 xl:grid-cols-2 xl:gap-x-5 xl:gap-y-2">
         {data.map((skill, index) => (
           <motion.div
             key={index}
@@ -49,11 +51,11 @@ export function SkillsPage() {
                 src={skill.logo}
                 width={100}
                 height={100}
-                className="mb-6"
+                className="mb-6 xl:w-30 xl:h-30"
               />
             </div>
             <motion.p
-              className="absolute  font-serif font-medium text-lg bottom-2"
+              className="absolute  font-serif font-medium text-lg bottom-2 xl:text-sm"
               initial={{ opacity: 0 }}
               animate={{ opacity: hoveredSkillIndex === index ? 1 : 0 }}
             >
