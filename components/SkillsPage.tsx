@@ -29,7 +29,7 @@ export function SkillsPage() {
       <div className="font-bold text-3xl font-mono text-center xl:text-2xl">
         Tech Stack
       </div>
-      <div className="mt-10 grid grid-cols-4 gap-x-10 gap-y-10 xl:grid-cols-2 xl:gap-x-5 xl:gap-y-2">
+      <div className="mt-10 grid grid-cols-5 gap-x-10 gap-y-10 xl:grid-cols-2 xl:gap-x-5 xl:gap-y-2 xl:p-3">
         {data.map((skill, index) => (
           <motion.div
             key={index}

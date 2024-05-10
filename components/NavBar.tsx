@@ -44,6 +44,7 @@ export function NavBar() {
       <div className=" w-full flex justify-between items-center lg:hidden">
         <nav>
           <CustomLink href="/" title="<Home/>" className=" mr-10" />
+          <CustomLink href="/about" title="<About/>" className=" mr-10" />
           <CustomLink href="/skills" title="<Skills/>" className=" mr-10" />
           <CustomLink href="/projects" title="<Projects/>" className=" mr-10" />
         </nav>
@@ -97,6 +98,12 @@ export function NavBar() {
             <CustomMobileLink
               href="/"
               title="<Home/>"
+              className=""
+              toggle={handleClick}
+            />
+            <CustomMobileLink
+              href="/about"
+              title="<About/>"
               className=""
               toggle={handleClick}
             />
