@@ -11,7 +11,7 @@ export function ProjectsPage() {
       <div className=" font-bold text-3xl font-mono text-center dark:text-white xl:text-xl">
         Projects
       </div>
-      <div className=" w-full mb-16 flex flex-col items-center justify-center xl:p-2">
+      <div className=" w-full mb-16 flex flex-col items-center justify-center xl:p-5">
         <div className=" mt-10 grid grid-cols-2 gap-10 xl:gap-5">
           <div className="col-span-2">
             <ProjectOne
@@ -93,12 +93,12 @@ const ProjectOne = ({
           <Link
             href={link}
             target={"_blank"}
-            className=" text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900 xl:px-0 xl:py-0 xl:w-20 xl:h-15"
+            className=" text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900"
           >
             Visit the Project
           </Link>
         </div>
-        <div className="grid grid-cols-4 gap-1 mt-2 xl:grid-cols-2">
+        <div className="grid grid-cols-4 gap-1 mt-2 xl:grid-cols-3">
           <Button text="NextJs" />
           <Button text="TailwindCSS" />
           <Button text="TypeScript" />
@@ -146,12 +146,12 @@ const ProjectTwo = ({
           <Link
             href={link}
             target={"_blank"}
-            className=" text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900  xl:px-0 xl:py-0 xl:w-20 xl:h-15"
+            className=" text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900"
           >
             Visit the Project
           </Link>
         </div>
-        <div className="grid grid-cols-4 gap-1 mt-2 xl:grid-cols-2">
+        <div className="grid grid-cols-4 gap-1 mt-2 xl:grid-cols-3">
           <Button text="React" />
           <Button text="TailwindCSS" />
           <Button text="TypeScript" />
@@ -200,12 +200,12 @@ const ProjectThree = ({
           <Link
             href={link}
             target={"_blank"}
-            className=" text-purple-700 text-xs hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg  px-5 py-2.5 text-center me-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900  xl:px-0 xl:py-0 xl:w-20 xl:h-15"
+            className=" text-purple-700 text-xs hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg  px-5 py-2.5 text-center me-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900 "
           >
             Visit the Project
           </Link>
         </div>
-        <div className="grid grid-cols-4 gap-1 mt-2 xl:grid-cols-2">
+        <div className="grid grid-cols-4 gap-1 mt-2 xl:grid-cols-3">
           <Button text="NextJs" />
           <Button text="TailwindCSS" />
           <Button text="TypeScript" />
