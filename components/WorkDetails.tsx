@@ -16,7 +16,7 @@ export const Details = ({
 }: DetailsType) => {
   return (
     <li className="w-full flex flex-col items-center justify-center">
-      <div className="flex flex-col gap-1 w-full max-w-[65%]">
+      <div className="flex flex-col gap-1 w-full max-w-[65%] xl:min-w-[80%]">
         <h3 className="capitalize font-bold text-2xl">
           {position} &nbsp;
           <a
