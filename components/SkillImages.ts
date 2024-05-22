@@ -17,7 +17,7 @@ import typeScriptLogo from "./../public/images/ts.png";
 import DockerLogo from "./../public/images/docker.png";
 import postmanLogo from "./../public/images/postman.webp";
 import socketIOLogo from "./../public/images/socketio.png";
-
+import graphql from "./../public/images/graphql.jpg";
 export const data = [
   {
     logo: Git,
@@ -94,5 +94,9 @@ export const data = [
   {
     logo: Java,
     name: "Java",
+  },
+  {
+    logo: graphql,
+    name: "Graphql",
   },
 ];

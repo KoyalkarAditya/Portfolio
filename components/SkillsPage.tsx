@@ -45,7 +45,7 @@ export function SkillsPage() {
             custom={index}
             style={{ height: "170px" }}
           >
-            <div className="rounded-2xl bg-slate-200 p-5 w-full flex justify-center dark:bg-slate-950">
+            <div className="rounded-2xl bg-slate-200 p-5 w-full flex justify-center dark:bg-slate-950 border-2 dark:border-slate-800">
               <Image
                 alt={skill.name}
                 src={skill.logo}

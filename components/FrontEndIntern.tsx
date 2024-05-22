@@ -31,17 +31,17 @@ export const DetailsOfFrontEndIntern = ({
 
         <ul className="list-disc list-inside font-mono text-lg text-left font-medium">
           <li>
-            Leading frontend initiatives tailored for the startup, creating
-            agile and user-centric interfaces.
+            Led frontend initiatives tailored for the startup, creating agile
+            and user-centric interfaces.
           </li>
           <li>
-            Empowering the startup with dynamic web experiences using React,MUI
-            igniting growth and invocation
+            Worked with RESTful APIs to fetch and display data dynamically,
+            enhancing the interactivity and functionality of web applications.
           </li>
           <li>
-            Enhancing user experience by utilizing React Countup for animated
-            numerical displays and React Syntax Highlighter for effective code
-            presentation
+            Implemented responsive design principles to optimize web
+            applications for various devices and screen sizes, significantly
+            improving mobile user engagement.
           </li>
         </ul>
       </div>
