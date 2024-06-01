@@ -22,63 +22,68 @@ export const ProjectsPage = () => {
     [hoveredProjectIndex]
   );
   return (
-    <div className="py-10 px-12 grid grid-cols-3 gap-5 text-black">
+    <div className="py-10 px-12 grid grid-cols-3 md:grid-cols-1 gap-5 text-black">
       {projects.map((project, index) => (
         <motion.div
           onMouseEnter={() => handleMouseEnter(index)}
           onMouseLeave={handleMouseLeave}
-          className="bg-slate-200 min-h-80 rounded-xl p-3 relative"
+          className="bg-slate-200 min-h-80 rounded-xl p-3 relative cursor-pointer"
           key={index}
           whileHover={{ scale: 1.05 }}
         >
-          <AnimatePresence>
-            {hoveredProjectIndex === index ? (
-              <motion.div
-                key="summary"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.5 }}
-                className="absolute inset-0 p-2 text-base font-mono font-medium bg-slate-200 rounded-xl"
-              >
-                {project.summary}
-              </motion.div>
-            ) : (
-              <motion.div
-                key="details"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.5 }}
-              >
-                <div className="h-fit w-full flex items-center justify-center">
-                  <Image
-                    src={project.image}
-                    alt="Project Image"
-                    height={600}
-                    width={400}
-                    className="w-full h-full rounded-lg"
-                  />
-                </div>
-                <div className="px-3">
-                  <Link href={project.link} target="_blank">
-                    <h2 className="my-2 w-full text-left font-semibold text-xl">
-                      {project.title}
-                      {" : "}
-                      <span className="text-slate-700 text-lg">
-                        {project.type}
-                      </span>
-                    </h2>
+          <Link href={project.link} target="_blank">
+            <AnimatePresence>
+              {hoveredProjectIndex === index ? (
+                <motion.div
+                  key="summary"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.5 }}
+                  className="absolute inset-0 p-2 text-base font-mono font-medium bg-slate-200 rounded-xl"
+                >
+                  {project.summary}
+                  <Link href={project.github} target="_blank">
+                    <GithubIcon key={"github"} className=" w-8 h-8 " />
                   </Link>
-                </div>
-                <div className="flex flex-wrap">
-                  {project.stack.split(",").map((value, i) => (
-                    <Button text={value} key={i} />
-                  ))}
-                </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
+                </motion.div>
+              ) : (
+                <motion.div
+                  key="details"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.5 }}
+                >
+                  <div className="h-fit w-full flex items-center justify-center">
+                    <Image
+                      src={project.image}
+                      alt="Project Image"
+                      height={600}
+                      width={400}
+                      className="w-full h-64 rounded-lg sm:h-full"
+                    />
+                  </div>
+                  <div className="px-3">
+                    <div>
+                      <h2 className="my-2 w-full text-left font-semibold text-xl">
+                        {project.title}
+                        {" : "}
+                        <span className="text-slate-700 text-lg">
+                          {project.type}
+                        </span>
+                      </h2>
+                    </div>
+                  </div>
+                  <div className="flex flex-wrap">
+                    {project.stack.split(",").map((value, i) => (
+                      <Button text={value} key={i} />
+                    ))}
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </Link>
         </motion.div>
       ))}
     </div>
@@ -112,7 +117,7 @@ const projects: Project[] = [
     summary:
       "Medium is a blogging website which allows user to do CRUD operations on their blogs. Hono.js library of wrangler is used here for writing backend server which is hosted on cloudflare workers, connection-pooling is used for maintaining postgress requests.",
     image: Project2,
-    link: "https://medium-blogging-website-5aahstc27-koyalkar-adityas-projects.vercel.app/signup",
+    link: "https://blogging-website.adityakoyalkar.online/",
     github: "https://github.com/KoyalkarAditya/Blogging-Website1",
     type: "Blogging Website",
     stack:
