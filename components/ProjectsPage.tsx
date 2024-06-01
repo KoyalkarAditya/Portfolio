@@ -43,7 +43,11 @@ export const ProjectsPage = () => {
                   className="absolute inset-0 p-2 text-base font-mono font-medium bg-slate-200 rounded-xl"
                 >
                   {project.summary}
-                  <Link href={project.github} target="_blank">
+                  <Link
+                    href={project.github}
+                    target="_blank"
+                    className=" h-fit w-fit"
+                  >
                     <GithubIcon key={"github"} className=" w-8 h-8 " />
                   </Link>
                 </motion.div>
