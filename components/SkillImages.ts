@@ -4,20 +4,20 @@ import Html from "./../public/images/htmllogo.png";
 import Css from "./../public/images/csslogo.png";
 import Js from "./../public/images/jslogo.png";
 import ReactLogo from "./../public/images/reactlogo.png";
-import expressLogo from "./../public/images/exp.png";
+import expressLogo from "./../public/images/exp-removebg-preview.png";
 import tailwindLogo from "./../public/images/tailwindcss.png";
 import HonoLogo from "./../public/images/hono.png";
-import PostgresLogo from "./../public/images/postgresql.webp";
+import PostgresLogo from "./../public/images/postgres-removebg-preview (3).png";
 import mySqlLogo from "./../public/images/mysql.png";
-import Java from "./../public/images/java.png";
-import PrismaLogo from "./../public/images/pri.svg";
-import mongoLogo from "./../public/images/mongo.svg";
+import Java from "./../public/images/java-removebg-preview.png";
+import PrismaLogo from "./../public/images/icons8-prisma-orm-48.png";
+import mongoLogo from "./../public/images/mongo.png";
 import nextJSLogo from "./../public/images/nextjs.png";
 import typeScriptLogo from "./../public/images/ts.png";
 import DockerLogo from "./../public/images/docker.png";
-import postmanLogo from "./../public/images/postman.webp";
-import socketIOLogo from "./../public/images/socketio.png";
-import graphql from "./../public/images/graphql.jpg";
+import postmanLogo from "./../public/images/postman-removebg-preview (1).png";
+import socketIOLogo from "./../public/images/socketio-removebg-preview.png";
+import graphql from "./../public/images/graphql-removebg-preview.png";
 export const data = [
   {
     logo: Git,
