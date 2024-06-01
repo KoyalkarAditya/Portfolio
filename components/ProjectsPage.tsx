@@ -46,9 +46,9 @@ export const ProjectsPage = () => {
                   <Link
                     href={project.github}
                     target="_blank"
-                    className=" h-fit w-fit"
+                    className=" h-fit w-fit flex justify-start"
                   >
-                    <GithubIcon key={"github"} className=" w-8 h-8 " />
+                    <GithubIcon key={"github"} className=" w-6 h-6" />
                   </Link>
                 </motion.div>
               ) : (
