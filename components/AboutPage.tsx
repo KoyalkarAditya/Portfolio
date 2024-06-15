@@ -18,7 +18,6 @@ const quote = {
 export function AboutPage() {
   return (
     <div className="px-72  pt-28 flex flex-col justify-center xl:px-5 xl:py-10">
-      <div className="font-bold text-3xl font-mono text-center">About Me</div>
       <div className=" text-dark w-full">
         <Layout>
           <div className="flex items-center justify-between w-full">
@@ -43,9 +42,9 @@ export function AboutPage() {
                   initial="initial"
                   whileInView="animate"
                 >
-                  I&apos;m Koyalkar Aditya a Full Stack Developer from India.
-                  Currently working with Technologies like MERN stack and
-                  Next.js .
+                  Hey, I&apos;m <span className="name text-2xl">Aditya</span>!
+                  &#128075; , a Full Stack Developer from India. Currently
+                  working with Technologies like MERN stack and Next.js .
                   <br />
                   I&apos;m currently an undergraduate,pursuing Computer Science
                   majors from AVN Institute of Engineering and Technology.
