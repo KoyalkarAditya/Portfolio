@@ -30,7 +30,7 @@ export const Details = ({
         <span className="dark:text-slate-300 capitalize font-medium text-dark/75">
           {time} {address && `| ${address}`}
         </span>
-        <p className="font-mono text-lg text-left font-medium">{work}</p>
+        <p className=" text-lg text-left font-medium">{work}</p>
       </div>
     </li>
   );

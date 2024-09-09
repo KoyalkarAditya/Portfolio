@@ -16,17 +16,17 @@ export function HomePage() {
               />
             </div>
             <div className=" text-left">
-              <div className=" ml-10 mb-2 font-bold font-mono text-3xl ">
+              <div className=" ml-10 mb-2 font-bold  text-3xl ">
                 Hey, I&apos;m Aditya! &#128075;
               </div>
-              <div className="ml-10 text-gray-500 font-bold font-mono text-2xl">
+              <div className="ml-10 text-gray-500 font-bold  text-2xl">
                 Software Engineer
               </div>
-              <div className="ml-10 text-gray-500 font-semibold  font-mono text-2xl">
+              <div className="ml-10 text-gray-500 font-semibold   text-2xl">
                 Full Stack Developer
               </div>
             </div>
-            <div className="mt-14 text-semibold font-mono text-lg font-semibold xl:text-center">
+            <div className="mt-14 text-semibold  text-lg font-semibold xl:text-center">
               Welcome to my personal portfolio!
             </div>
           </div>

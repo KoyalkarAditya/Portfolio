@@ -20,7 +20,7 @@ export function NavBar() {
     setIsOpen((prev) => !prev);
   };
   return (
-    <div className="font-mono w-full px-32 pt-8 font-medium flex items-center justify-between relative">
+    <div className=" w-full px-32 pt-8 font-medium flex items-center justify-between relative">
       <button
         className=" flex-col justify-center items-center hidden lg:flex"
         onClick={handleClick}

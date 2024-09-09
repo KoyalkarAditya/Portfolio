@@ -26,7 +26,7 @@ export function SkillsPage() {
 
   return (
     <div className="flex flex-col justify-center items-center px-72 py-28 xl:px-0 xl:py-10">
-      <div className="font-bold text-3xl font-mono text-center xl:text-2xl">
+      <div className="font-bold text-3xl text-center xl:text-2xl">
         Tech Stack
       </div>
       <div className="mt-10 grid grid-cols-5 gap-x-10 gap-y-10 xl:grid-cols-2 xl:gap-x-5 xl:gap-y-2 xl:p-3">

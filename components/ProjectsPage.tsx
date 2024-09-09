@@ -40,7 +40,7 @@ export const ProjectsPage = () => {
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.5 }}
-                  className="absolute inset-0 p-2 text-base font-mono font-medium bg-slate-200 rounded-xl"
+                  className="absolute inset-0 p-2 text-base  font-medium bg-slate-200 rounded-xl"
                 >
                   {project.summary}
                   <Link

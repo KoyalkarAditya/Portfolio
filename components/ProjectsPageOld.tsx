@@ -8,7 +8,7 @@ import { GithubIcon } from "./Icons";
 export function ProjectsPage() {
   return (
     <div className=" px-72 pt-0 flex flex-col justify-center dark:text-black xl:px-0 xl:py-10 xl:w-full">
-      <div className=" font-bold text-3xl font-mono text-center dark:text-white xl:text-xl">
+      <div className=" font-bold text-3xl text-center dark:text-white xl:text-xl">
         Projects
       </div>
       <div className=" w-full mb-16 flex flex-col items-center justify-center xl:p-5">
@@ -83,9 +83,7 @@ const ProjectOne = ({
         <span className=" text-slate-500 font-medium  text-lg xl:text-sm">
           {type}
         </span>
-        <p className=" font-mono my-2 font-medium text-base  xl:text-sm">
-          {summary}
-        </p>
+        <p className="  my-2 font-medium text-base  xl:text-sm">{summary}</p>
         <div className=" mt-2 flex items-center ">
           <Link className=" mr-5" href={github} target={"_blank"}>
             <GithubIcon className="min-w-10 mb-1" />
@@ -138,7 +136,7 @@ const ProjectTwo = ({
         <span className=" text-slate-500 font-medium text-lg xl:text-sm">
           {type}
         </span>
-        <p className=" font-mono my-2 font-base xl:text-sm ">{summary}</p>
+        <p className=" my-2 font-base xl:text-sm ">{summary}</p>
         <div className=" mt-2 flex items-center ">
           <Link className=" mr-5" href={github} target={"_blank"}>
             <GithubIcon className="min-w-10 mb-1" />
@@ -192,7 +190,7 @@ const ProjectThree = ({
         <span className=" text-slate-500 font-medium text-lg xl:text-sm">
           {type}
         </span>
-        <p className=" font-mono my-2 font-base  xl:text-sm">{summary}</p>
+        <p className="  my-2 font-base  xl:text-sm">{summary}</p>
         <div className=" mt-2 flex items-center ">
           <Link className=" mr-5" href={github} target={"_blank"}>
             <GithubIcon className="min-w-10 mb-1" />

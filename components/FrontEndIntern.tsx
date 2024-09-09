@@ -29,7 +29,7 @@ export const DetailsOfFrontEndIntern = ({
           {time} {address && `| ${address}`}
         </span>
 
-        <ul className="list-disc list-inside font-mono text-lg text-left font-medium">
+        <ul className="list-disc list-inside text-lg text-left font-medium">
           <li>
             Led frontend initiatives tailored for the startup, creating agile
             and user-centric interfaces.
