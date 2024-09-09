@@ -4,7 +4,7 @@ import { Details } from "./WorkDetails";
 export const Experience = () => {
   return (
     <div className=" mt-10 relative ">
-      <div className=" font-mono font-bold text-3xl mb-16 w-full text-center">
+      <div className="  font-bold text-3xl mb-16 w-full text-center">
         Experience
       </div>
       <div className=" absolute left-[15%] xl:left-[5%] h-full w-[4px] dark:bg-white bg-dark origin-top "></div>

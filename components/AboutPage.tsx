@@ -37,7 +37,7 @@ export function AboutPage() {
               </div>
               <div>
                 <motion.div
-                  className=" ml-10 font-mono text-lg font-semibold  dark:text-white xl:ml-2 xl:text-sm"
+                  className=" ml-10  text-lg font-semibold  dark:text-white xl:ml-2 xl:text-sm"
                   variants={quote}
                   initial="initial"
                   whileInView="animate"
