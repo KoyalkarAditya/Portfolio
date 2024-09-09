@@ -43,10 +43,18 @@ export function NavBar() {
       </button>
       <div className=" w-full flex justify-between items-center lg:hidden">
         <nav>
-          <CustomLink href="/" title="<Home/>" className=" mr-10" />
-          <CustomLink href="/about" title="<About/>" className=" mr-10" />
-          <CustomLink href="/skills" title="<Skills/>" className=" mr-10" />
-          <CustomLink href="/projects" title="<Projects/>" className=" mr-10" />
+          <a href="#home" className="mr-10">
+            <CustomLink href="#home" title="<Home/>" />
+          </a>
+          <a href="#about" className="mr-10">
+            <CustomLink href="#about" title="<About/>" />
+          </a>
+          <a href="#skills" className="mr-10">
+            <CustomLink href="#skills" title="<Skills/>" />
+          </a>
+          <a href="#projects" className="mr-10">
+            <CustomLink href="#projects" title="<Projects/>" />
+          </a>
         </nav>
         <nav className="flex  gap-3 items-center justify-center flex-wrap">
           <motion.a

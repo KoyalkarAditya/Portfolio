@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 type CustomLinkType = {
   href: string;
   title: string;
-  className: string;
+  className?: string;
 };
 export const CustomLink = ({ href, title, className }: CustomLinkType) => {
   const pathname = usePathname();
