@@ -18,7 +18,7 @@ const quote = {
 };
 export function AboutPage() {
   return (
-    <div className="px-72 sm:px-3  pt-28 flex flex-col  xl:px-5 xl:py-10">
+    <div className="px-40 sm:px-3  pt-28 flex flex-col  xl:px-5 xl:py-10">
       <div className="text-2xl sm:ml-5 font-mono text-[#64ffda]">
         Hello, I am
       </div>

@@ -8,7 +8,7 @@ export const Experience = () => {
         <div className="flex items-center w-full mb-16">
           <div className="relative text-[#ccd6f6] font-bold text-[40px] mb-8">
             Experience
-            <div className="absolute top-1/2 mx-60 sm:mx-0 w-full h-[1px] bg-[#ccd6f6]"></div>
+            <div className="absolute top-1/2 mx-60 sm:mx-0 w-full h-[1px] bg-[#ccd6f6] sm:hidden"></div>
           </div>
         </div>
         <div className="mx-20 sm:mx-0 flex font-mono flex-col gap-10">

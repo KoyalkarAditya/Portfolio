@@ -29,7 +29,7 @@ export function SkillsPage() {
       <div className="flex ml-5 items-center w-full mb-16">
         <div className="relative text-[#ccd6f6] font-bold text-[40px] mb-8 mx-44 sm:mx-5">
           Tech Stack
-          <div className="absolute top-1/2 mx-60 sm:mx-0 w-full h-[1px] bg-[#ccd6f6]"></div>
+          <div className="absolute top-1/2 mx-60 sm:mx-0 w-full h-[1px] bg-[#ccd6f6] sm:hidden"></div>
         </div>
       </div>
       <div className=" grid grid-cols-5 px-40 sm:px-5  gap-x-10 gap-y-10 sm:grid-cols-3 xl:gap-x-5 xl:gap-y-2 xl:p-3">
