@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="255" height="51.675" viewBox="0 0 255 51.675">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#214281"/>
+      <stop offset="1" stop-color="#0c2343"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8164"/>
+      <stop offset="1" stop-color="#f55222"/>
+      <stop offset="1" stop-color="#fd5523"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e26d03"/>
+      <stop offset="0" stop-color="#f9896e"/>
+      <stop offset="1" stop-color="#f55222"/>
+      <stop offset="1" stop-color="#fd5523"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Al-Connect_horizontal_Logo" data-name="Al-Connect horizontal Logo" transform="translate(-804.581 -708.02)">
+    <g id="Group_23803" data-name="Group 23803" transform="translate(804.581 708.02)">
+      <path id="Path_43576" data-name="Path 43576" d="M850.288,1105.574a11.117,11.117,0,0,0-5.152-8.3,8.991,8.991,0,0,0-1.125-.569,9.631,9.631,0,0,0-4.552-.676c-4.25.35-6.351,2.441-9.649,4.777-3.776,2.322-13.483,10.47-17.894,6.623-3.705-3.232-1.831-9.187,2.75-10.92s10.6.914,14.41,2.227c-2.644-5.738-17.659-8.972-23.028.807a11.691,11.691,0,0,0-.518,1.069,12.249,12.249,0,0,0-.858,6.237,11.115,11.115,0,0,0,5.152,8.295,8.986,8.986,0,0,0,1.125.569c6.281,2.637,15.978-4.446,22.792-9.165,2.9-2.006,5.9-4.524,9.3-1.559,3.705,3.232,2.6,8.184-1.983,9.917s-11.611-5.672-14.351-1.785,16.833,9.533,22.2-.246a11.692,11.692,0,0,0,.518-1.069,12.237,12.237,0,0,0,.859-6.237" transform="translate(-804.581 -1066.639)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+      <path id="Path_43577" data-name="Path 43577" d="M857.187,814.49a8.137,8.137,0,1,1-8.137,8.137,8.137,8.137,0,0,1,8.137-8.137" transform="translate(-845.974 -807.125)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+      <path id="Path_43578" data-name="Path 43578" d="M1235.078,896.13a7.048,7.048,0,1,1-7.048,7.048,7.049,7.049,0,0,1,7.048-7.048" transform="translate(-1198.737 -883.117)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+      <g id="Group_23802" data-name="Group 23802" transform="translate(33.891 0)">
+        <path id="Path_43579" data-name="Path 43579" d="M1536.686,825.205l1.437-3.444-.6-.042-1.363,3.265Z" transform="translate(-1519.443 -813.855)" fill="url(#linear-gradient)"/>
+        <path id="Path_43580" data-name="Path 43580" d="M1319.883,764.788l-6.725-.461a.569.569,0,0,1-.179-.042.554.554,0,0,1-.157-.1l-5.057-4.456-1.694,4.059.006,0-.042.062c-.246.588,1.923,3.033,5.27,4.43s6.6,1.215,6.849.627l.015-.073.021.009Z" transform="translate(-1305.22 -756.153)" fill="url(#linear-gradient-5)"/>
+        <path id="Path_43581" data-name="Path 43581" d="M1297.453,710.622l5.2,4.583,6.916.475,3.01.206.6.042.316.021-8.163-7.163-10.833-.766Z" transform="translate(-1294.5 -708.02)" fill="url(#linear-gradient-6)"/>
+        <path id="Path_43582" data-name="Path 43582" d="M1514.118,873.571l-.839,2.01a.673.673,0,1,0,1.242.519l.839-2.01a.676.676,0,0,0,0-.511l-.884-.369A.667.667,0,0,0,1514.118,873.571Z" transform="translate(-1498.095 -861.783)" fill="url(#linear-gradient-7)"/>
+        <path id="Path_43583" data-name="Path 43583" d="M1530.335,867.37l-.155.371.079.033.884.369.079.033.155-.371-.258-.107-.526-.22Z" transform="translate(-1513.876 -856.347)" fill="#021123"/>
+      </g>
+    </g>
+    <g id="Group_23804" data-name="Group 23804" transform="translate(863.316 717.369)">
+      <rect id="Rectangle_9202" data-name="Rectangle 9202" width="134.008" height="16.558" transform="translate(0.745 6.862)" fill="none"/>
+      <text id="Al-connect" transform="translate(0.265 22)" fill="#0c2343" font-size="24" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Al-connect</tspan></text>
+      <rect id="Rectangle_9203" data-name="Rectangle 9203" width="135.497" height="7.021" transform="translate(0 29.9)" fill="none"/>
+      <text id="Bridging_Dreams_to_Destinations" data-name="Bridging Dreams to Destinations" transform="translate(0.265 27.327)" fill="#828282" font-size="10" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="11">Bridging Dreams to Destinations</tspan></text>
+    </g>
+  </g>
+</svg>
